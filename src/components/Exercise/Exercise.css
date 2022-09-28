@@ -3,9 +3,32 @@
 .card{
     width: 300px;
     height: 500px;
+    border: 3px solid bisque;
+    border-radius: 8px;
+    position: relative;
 }
 
 .card img{
     width: 250px;
     height: 250px;
+}
+
+.card-info{
+    margin: 0 14px;
+}
+
+.card-btn{
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    background-color: aquamarine;
+    font-weight: 500;
+    border: 0;
+
+}
+
+.card-btn .btn-text{
+    padding-top: 10px;
+
 }

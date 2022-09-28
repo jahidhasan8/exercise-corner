@@ -9,12 +9,14 @@ const Exercise = ({exercise}) => {
     return (
         <div className='card'>
             <img src={img} alt="" />
-              <h4>{name}</h4>
+             <div className='card-info'>
+             <h4>{name}</h4>
               <p>{description? description.slice(0,60):'N/A'}</p>
               <p>Age: {age}</p>
               <p>Time : {time}</p>
+             </div>
               <button className='card-btn'>
-                <p>Add To List</p>
+                <p className='btn-text'>Add To List</p>
               </button>
         </div>
     );
