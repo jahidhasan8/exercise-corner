@@ -3,8 +3,9 @@
 import React from 'react';
 import './Exercise.css'
 
-const Exercise = ({exercise}) => {
-    const{key,name,time,description,age,img}=exercise
+const Exercise = ({exercise,handleAddToCart}) => {
+    const{key,name,time,description,Age,img}=exercise
+    
     
     return (
         <div className='card'>
@@ -12,10 +13,10 @@ const Exercise = ({exercise}) => {
              <div className='card-info'>
              <h4>{name}</h4>
               <p>{description? description.slice(0,60):'N/A'}</p>
-              <p>Age: {age}</p>
+              <p>Age: {Age}</p>
               <p>Time : {time}</p>
              </div>
-              <button className='card-btn'>
+              <button onClick={()=>handleAddToCart(exercise)} className='card-btn'>
                 <p className='btn-text'>Add To List</p>
               </button>
         </div>
