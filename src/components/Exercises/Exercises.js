@@ -1,6 +1,7 @@
 
 
 import React, { useEffect, useState } from 'react';
+import Exercise from '../Exercise/Exercise';
 import './Exercises.css'
 const Exercises = () => {
     const[exercises, setExercises]=useState([])
@@ -8,7 +9,7 @@ const Exercises = () => {
     useEffect(()=>{
         fetch('fakeData.json')
         .then(res=>res.json())
-        .then(data=>console.log(data))
+        .then(data=>setExercises(data))
   },[])
   
     return (
@@ -17,7 +18,10 @@ const Exercises = () => {
 
            <div className='exercises-container'>
            <div className="exercises">
-                <h4>hello all</h4>
+                
+                {
+                    exercises.map(exercise=><Exercise exercise={exercise} key={exercise.key}></Exercise>)
+                }
             </div>
             <div className="info-cart">
                 <h4>info cart</h4>
