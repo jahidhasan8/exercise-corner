@@ -13,7 +13,7 @@ const Exercises = () => {
   },[])
   
     return (
-        <div className>
+        <div >
             <h1>Daily Exercises List</h1>
 
            <div className='exercises-container'>
@@ -24,9 +24,39 @@ const Exercises = () => {
                 }
             </div>
             <div className="info-cart">
-                <h4>info cart</h4>
+                <div>
+                <h4>Jahid Hasan</h4>
+                <small>Dhaka, Bangladesh</small>
+                </div>
+                <div className='personal-info'>
+                    <h5>75 <small>Weight</small></h5>
+                    <h5>5.5 <small>Height</small></h5>
+                    <h5>26 <small>Years</small></h5>
+                </div>
+
+                <div className='btn-time'>
+                    <h5>Add A Break</h5>
+                     <button>1h</button>
+                     <button>2h</button>
+                     <button>3h</button>
+                     <button>4h</button>
+                </div>
+
+                <div className='details'>
+                    <h5>Exercise Details</h5>
+                    <div className='e-time'>
+                        <small>Exercise time :</small>
+                    </div>
+                    <div className='b-time'>
+                        <small>Break time :</small>
+                    </div>
+                </div>
+
+                <button className='activity-btn'>Activity Done</button>
+                
             </div>
            </div>
+           
         </div>
     );
 };
