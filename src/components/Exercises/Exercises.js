@@ -23,8 +23,7 @@ const Exercises = () => {
     
     return (
         <div >
-            <h1>Daily Exercises List</h1>
-
+           
            <div className='exercises-container'>
            <div className="exercises">
                 

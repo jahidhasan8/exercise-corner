@@ -10,10 +10,10 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
-    margin: 100px 50px;
+    margin: 50px 50px;
 }
 
 .info-cart{
     margin-right: 200px;
-    
 }
+
