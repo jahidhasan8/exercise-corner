@@ -9,8 +9,10 @@
 }
 
 .card img{
-    width: 250px;
+    width: 295px;
     height: 250px;
+    border-radius: 15px;
+    padding: 8px;
 }
 
 .card-info{

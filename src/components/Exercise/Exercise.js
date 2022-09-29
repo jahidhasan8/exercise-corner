@@ -12,7 +12,7 @@ const Exercise = ({exercise,handleAddToCart}) => {
             <img src={img} alt="" />
              <div className='card-info'>
              <h4>{name}</h4>
-              <p>{description? description.slice(0,60):'N/A'}</p>
+              <p>{description? description.slice(0,80):'N/A'}</p>
               <p>Age: {Age}</p>
               <p>Time : {time} hour</p>
              </div>
