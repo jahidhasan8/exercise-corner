@@ -4,7 +4,12 @@
     position: sticky;
     top: 0;
 }
-
+ 
+.p-image{
+    width: 25%;
+    border-radius: 50px;
+    
+}
 .personal-info{
     font-weight: 500;
      background-color: aliceblue;

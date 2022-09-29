@@ -11,3 +11,11 @@
 .answer h4{
     padding-bottom: 10px
 }
+
+@media screen and (max-width:576px){
+    .answer{
+        width: fit-content;
+        
+    
+    }
+}

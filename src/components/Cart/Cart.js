@@ -9,11 +9,11 @@ const Cart = ({ info }) => {
     //  console.log(info);
     const [breakTime, setBreakTime] = useState(localStorage.getItem('breakTime') ? localStorage.getItem('breakTime') : 0);
 
-    useEffect(()=>{
+    useEffect(() => {
         localStorage.setItem('breakTime', breakTime);
         setBreakTime(localStorage.getItem('breakTime'))
-    
-    },[breakTime])
+
+    }, [breakTime])
 
     let time = 0;
     for (const data of info) {
@@ -25,6 +25,7 @@ const Cart = ({ info }) => {
     return (
         <div className='cart'>
             <div>
+                <img className='p-image' src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="" />
                 <h4>Jahid Hasan</h4>
                 <small>Dhaka, Bangladesh</small>
             </div>
@@ -36,10 +37,10 @@ const Cart = ({ info }) => {
 
             <div className='btn-time'>
                 <h5>Add A Break</h5>
-                <button onClick={()=>setBreakTime(1)}>1h</button>
-                <button onClick={()=>setBreakTime(2)}>2h</button>
-                <button onClick={()=>setBreakTime(3)}>3h</button>
-                <button onClick={()=>setBreakTime(4)}>4h</button>
+                <button onClick={() => setBreakTime(1)}>1h</button>
+                <button onClick={() => setBreakTime(2)}>2h</button>
+                <button onClick={() => setBreakTime(3)}>3h</button>
+                <button onClick={() => setBreakTime(4)}>4h</button>
             </div>
 
             <div className='details'>
