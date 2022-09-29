@@ -17,3 +17,18 @@
     margin-right: 200px;
 }
 
+@media screen and (max-width:576px) {
+    .exercises{
+        grid-template-columns: repeat(1,1fr);
+        
+    
+    }
+   .exercises-container{
+    grid-template-columns: 1fr;
+
+   }
+   .info-cart{
+    padding-left: 50px;
+    padding-bottom: 50px;
+   }
+}
