@@ -60,4 +60,6 @@
     margin-top: 10px;
     width: 100%;
     background-color: aquamarine;
+    border: none;
+    border-radius: 10px;
 }
