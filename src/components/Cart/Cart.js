@@ -27,7 +27,7 @@ const Cart = ({ info }) => {
       
     // using toast
     const handleActivity = () => {
-        toast("You have successfully activity completed!");
+        toast.success("You have successfully activity completed!");
     
     }
 
