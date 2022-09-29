@@ -40,7 +40,7 @@ const Cart = ({ info }) => {
                 <small>Dhaka, Bangladesh</small>
             </div>
             <div className='personal-info'>
-                <h5>75 <small>Weight</small></h5>
+                <h5>75Kg <small>Weight</small></h5>
                 <h5>5.5 <small>Height</small></h5>
                 <h5>26 <small>Years</small></h5>
             </div>
