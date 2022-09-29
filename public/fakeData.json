@@ -2,7 +2,7 @@
     {
         "key": "1",
         "name": "pushups",
-        "time": "10",
+        "time": "2",
         "description": "Drop and give 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them ",
         "Age": "25-30",
         "img": "https://images.unsplash.com/photo-1631775237267-a865f351e5a9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80"        
@@ -10,7 +10,7 @@
     {
         "key": "2",
         "name": "squats",
-        "time": "10",
+        "time": "3",
         "description": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned.",
         "Age": "20-30",
         "img": "https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=904&q=80"        
@@ -18,7 +18,7 @@
     {
         "key": "3",
         "name": "Dumble",
-        "time": "10",
+        "time": "1",
         "description": "Compound exercises, which utilize multiple joints and muscles, are perfect for busy bees as they work several parts of your body at once. A standing overhead press isn’t only one of the best exercises you can do for your shoulders, but it also engages your upper back and core.",
         "Age": "25-35y",
         "img": "https://images.unsplash.com/photo-1561729955-89357c733059?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"        
@@ -26,7 +26,7 @@
     {
         "key": "4",
         "name": "Single-leg deadlifts",
-        "time": "10",
+        "time": "4",
         "description": "This is another exercise that challenges your balance. Single-leg deadlifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.",
         "Age": "22-35y",
         "img": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"        
@@ -34,7 +34,7 @@
     {
         "key": "5",
         "name": "Side planks",
-        "time": "10",
+        "time": "3",
         "description": "A healthy body requires a strong core at its foundation, so don’t neglect core-specific moves like the side plank.Focus on the mind-muscle connection and controlled movements to ensure you’re completing this move effectively.",
         "Age": "25-38y",
         "img": "https://images.unsplash.com/photo-1549576490-b0b4831ef60a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"        
@@ -42,7 +42,7 @@
     {
         "key": "6",
         "name": "Cable Crossover",
-        "time": "10",
+        "time": "1",
         "description": "The cable crossover is a versatile exercise that’s easy to learn and vital to any chest routine. How high you set the cables is all dependent on what part of the muscle you want to hit (upper or lower). And once you figure out what you’re targeting, you can hop right in and start building your ideal chest.",
         "Age": "26-35y",
         "img": "https://images.unsplash.com/photo-1554344728-77cf90d9ed26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"        
@@ -50,15 +50,15 @@
     {
         "key": "7",
         "name": "Chest: Incline Flye",
-        "time": "10",
+        "time": "2",
         "description": "This is a killer way to hit your upper chest. Just set the bench at an incline of no more than 45 degrees, grab some moderately heavy dumbbells, and get lifting ",
         "Age": "25-36y",
         "img": "https://images.unsplash.com/photo-1532384555668-bc0c32a17ffd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"        
     },
     {
         "key": "8",
-        "name": "Shoulders: Rear Delt Raises",
-        "time": "10",
+        "name": "Rear Delt Raises",
+        "time": "3",
         "description": "This move is similar to regular lateral raises, except here you raise the weights while slightly bent over, leading to more rear deltoid and trap development. Popular modifications to the bent-over rear delt raise include a seated version on a bench or replacing dumbbells with cables.  ",
         "Age": "25-35y",
         "img": "https://images.unsplash.com/photo-1516208813382-cbaf53501037?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8c2hvdWxkZXJzJTIwZ3ltfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60"        
@@ -66,7 +66,7 @@
     {
         "key": "9",
         "name": "Back: Pullups",
-        "time": "10",
+        "time": "1",
         "description": "back pullups is a classic strength-building move that everyone needs to do in the gym. But whatever you do, don’t lose your form in favor of reps. Keep those legs straight for maximum payoff.",
         "Age": "26-35y",
         "img": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"        

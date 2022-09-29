@@ -4,10 +4,14 @@ import React from 'react';
 import './Exercise.css'
 
 const Exercise = ({exercise,handleAddToCart}) => {
+    //  get data as props
+
+    // destructuring data
     const{name,time,description,Age,img}=exercise
     
     
     return (
+        // displaying data 
         <div className='card'>
             <img src={img} alt="" />
              <div className='card-info'>

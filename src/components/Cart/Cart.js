@@ -1,29 +1,39 @@
 
 
 import React, { useEffect, useState } from 'react';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Cart.css'
 
 
 const Cart = ({ info }) => {
-    //  console.log(info);
+    
+    // set data to state
     const [breakTime, setBreakTime] = useState(localStorage.getItem('breakTime') ? localStorage.getItem('breakTime') : 0);
-
+    
+    // load data through local storage
     useEffect(() => {
         localStorage.setItem('breakTime', breakTime);
         setBreakTime(localStorage.getItem('breakTime'))
 
     }, [breakTime])
-
+    
+    // calculating time
     let time = 0;
     for (const data of info) {
         time += parseInt(data.time);
 
     }
-
+      
+    // using toast
+    const handleActivity = () => {
+        toast("You have successfully activity completed!");
+    
+    }
 
     return (
         <div className='cart'>
+            {/* displaying cart information */}
             <div>
                 <img className='p-image' src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80" alt="" />
                 <h4>Jahid Hasan</h4>
@@ -52,8 +62,9 @@ const Cart = ({ info }) => {
                     <small>Break time : {breakTime} hour</small>
                 </div>
             </div>
-
-            <button className='activity-btn'>Activity Done</button>
+               
+            <button onClick={()=>handleActivity()} className='activity-btn'>Activity Done</button>
+            <ToastContainer />
         </div>
     );
 };

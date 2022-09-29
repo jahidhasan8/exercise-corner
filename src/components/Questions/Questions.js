@@ -2,6 +2,8 @@
 
 import React from 'react';
 import './Questions.css'
+
+// question and answering part
 const Questions = () => {
     return (
         <div className='answer'>
@@ -25,23 +27,23 @@ const Questions = () => {
                 <h6>
                     3. What does useEffect do without data load ?
                 </h6>
-                <p>
-                    useEffect usess in many ways... <br />
-                    <ul>
-                        <li>Side Effect Runs After Every Render</li>
-                        <li>Side Effect Runs Only Once After Initial Render</li>
-                        <li>Side Effect Runs After State Value Changes</li>
-                        <li> Side Effect Runs After Props Value Change</li>
-                        <li>Side Effect Runs After Props and State Value Change</li>
-                        <li>Side Effect Cleanup</li>
-                    </ul>
-                   Mostly, The useEffect Hook allows us to perform side effects in our components.
+
+                useEffect usess in many ways... <br />
+                <ul>
+                    <li>Side Effect Runs After Every Render</li>
+                    <li>Side Effect Runs Only Once After Initial Render</li>
+                    <li>Side Effect Runs After State Value Changes</li>
+                    <li> Side Effect Runs After Props Value Change</li>
+                    <li>Side Effect Runs After Props and State Value Change</li>
+                    <li>Side Effect Cleanup</li>
+                </ul>
+                <p>Mostly, The useEffect Hook allows us to perform side effects in our components.
 
                     directly updating the DOM, and timers etc.
 
                     useEffect accepts two arguments
-
                 </p>
+
             </div>
         </div>
     );
