@@ -19,6 +19,11 @@
     margin: 0 14px;
 }
 
+.card-info p{
+    margin: 0;
+    padding: 3px;
+}
+
 .card-btn{
     width: 100%;
     border-radius: 10px;
@@ -32,6 +37,5 @@
 
 .card-btn .btn-text{
     padding-top: 10px;
-
 }
 
